@@ -1,0 +1,57 @@
+# Python-specific ignores
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+sr_env/
+*.venv/
+.env/
+env/
+venv/
+ENV/
+.venv/
+.venv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+*.out
+*.err
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files and backups
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Dataset and results
+data/
+results/
+*.tar
+*.zip
+
+# Model files
+*.pth
+*.h5
+
+# Configuration and environment
+*.env
+*.ini
+*.cfg
+
+# IDE-specific files
+.vscode/
+.idea/
+*.code-workspace
+
+# Other
+*.pickle
+*.pkl
